@@ -471,6 +471,30 @@
     padding: 11px;
     margin: 15px 12px;
 }
+
+.main-box-shadow{
+    box-shadow: 0 0px 5px 0px rgba(88, 88, 88, 0.4);
+    overflow: hidden;
+    padding: 20px;
+    margin: 60px 0px 0px 0px;
+}
+
+.main-box-shadow input{
+    width: 31%;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px #ededed solid;
+    font-size: 16px;
+    margin: 10px 18px 1px 4px;
+}
+
+.main-box-shadow h4{
+    color: #6bc862;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
 .left-img h4{
     color: #3fb832;
     font-size: 22px;
@@ -488,3 +512,882 @@
 	    padding: 12px 182px;
     margin: 26px 0;
 }
+.Services-section{
+	border-right:1px #d4d4d4 solid 
+}
+
+
+.Services-section span{
+    font-size: 18px;
+    margin: 13px 23px;
+    display: inline-block;
+    color: #828282;
+}
+
+.Services-section h6{
+    font-size: 18px;
+    padding: 10px 22px;
+    color: #3fb832;
+}
+
+.clander p{
+    font-size: 18px;
+    color: #888888;
+    padding: 0px 0;
+}
+
+.clander input{
+    background: #f6f6f6;
+    border: 1px #dcdcdc solid;
+    color: #686868;
+    font-size: 16px;
+    width: 86%;
+    margin: 7px 0px 15px 0px;
+    padding: 19px 11px;
+}
+
+.pkg-title p{}
+
+.clander{
+	margin-top: 13px 0;
+} 
+
+.company-logos li{
+
+	list-style: none;
+	margin-top: 28px;
+}
+
+.company-logos li img{margin: 0 auto; display: block;}
+
+
+
+/******************* Booking ***************/
+
+body{
+    font-family: "railways" ,sans-serif;
+    color: #565a5c;
+}
+
+
+.Packages{
+padding: 10px;
+float: left;
+width: 100%;
+box-shadow: 0 0 1px 0px;
+}
+
+.Packages.Packages2{
+    margin-bottom: 37px;
+}
+
+/*.fix_box{
+position:fixed;
+right:40px; 
+}*/
+
+.img3 img{
+        padding: 13px 14px;
+}
+
+
+.img3 {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+
+.text2 h4{
+    color: #45b832;
+    font-size: 20px;
+    padding: 31px 6px 7px 5px;
+
+}
+
+.text2 h4.head2{
+    display: inline-block;
+}
+
+.img3.name{
+        width: 11%;
+}
+
+
+.text2 a{
+    border: 1px solid #3fb832;
+    border-radius: 30px;
+    padding: 9px 24px;
+    font-size: 18px;
+    background: none;
+    color: #3fb832;
+}
+
+
+.text2 span.reting2{
+    padding-left: 165px;
+    color: #38bf29;
+    font-size: 22px;
+    background: url(../images/rate.png) no-repeat 143px 8px;
+}
+
+.text2 span{
+         background: url(../images/loocation.png) no-repeat 0px 0px;
+    padding: 3px 30px;
+    color: #2f2f2f;
+    font-size: 16px;
+
+
+}
+
+
+.Select-dates{
+    float: left;
+    box-shadow: 0 0 1px 0px;
+    width: 100%;
+    padding-bottom: 18px;
+    margin: 98px 4px 32px 0;
+}
+
+.Select-dates h3{
+        font-size: 20px;
+    color: #3fb832;
+    padding: 18px 18px;
+}
+
+.Select-dates input{
+    background: #f6f6f6;
+    border: 1px #dcdcdc solid;
+    color: #686868;
+    font-size: 16px;
+    width: 42%;
+    padding: 7px 14px;
+    mar;
+    margin: 3px 0 0 17px;
+}
+.Select-dates h4{
+    padding: 0 47px;
+    color: #747474;
+    font-size: 18px;
+    font-weight: 100;
+    display: inline-block;
+}
+.Select-dates h4.from{
+        padding: 0 102px
+}
+
+
+/***************** end ******************/
+
+
+
+/***************** select-room ***************/
+
+.select-room{
+    padding: 90px 0;
+    float: left;
+    width: 100%;
+    box-shadow: 0 0 1px 0px;
+    background: #ffffff;
+    margin: 0px 0 17px 0px;
+}
+
+
+.select-room select{
+    color: #6b6b6b;
+    font-size: 19px;
+    background: #f6f6f6;
+    border: 1px #e9e9e9 solid;
+    padding: 8px 61px 6px 9px;
+}
+.select-room span{
+    font-size: 20px;
+    color: #3fb832;
+    font-weight: normal;
+    padding: 79px 21px;
+}
+.select-room span.rooms{
+    color: #2f2f2f;
+    /* padding: 0 60px; */
+}
+
+.select-room a{
+    color: #636363;
+    border: 1px #e9e9e9 solid;
+    padding: 6px 49px;
+    display: inline-block;
+    font-size: 20px;
+    background: #f6f6f6;
+}
+
+.Select-dates.Price{
+        background: #fff;
+    margin: 0 0;
+}
+
+.Select-dates h5{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 21px;
+}
+
+.Select-dates span{
+    padding-left: 171px;
+    color: #38bf29;
+    font-size: 20px;
+    background: url(../images/rate.png) no-repeat 155px 4px;
+}
+
+.underline {
+    width: 89%;
+    height: 1px;
+    background: #b4b4b4;
+    margin: 15px 20px;
+}
+
+.Select-dates h6{
+    font-size: 20px;
+    color: #4a4848;
+    text-align: center;
+}
+
+.Select-dates h6 span.rateing{
+    background: url(../images/rate.png) no-repeat 13px 4px;
+    padding-left: 29px;
+}
+/********** End ****************/
+
+/************** Scooty ***********/
+
+.Scooty{
+    padding: 12px 0;
+    box-shadow: 0 0 1px 0px;
+    background: #ffffff;
+    padding: 19px 0;
+    margin: 18px 0;
+}
+
+.select-add-ons h2{
+    color: #3fb832;
+    font-size: 20px;
+    margin: 23px 15px;
+}
+
+
+.Scooty select{color: #6b6b6b;font-size: 19px;background: #f6f6f6;border: 1px #e9e9e9 solid;padding: 8px 61px 6px 9px;float: right;margin-right: 33px;}
+.Scooty h3{
+    font-size: 20px;
+    color: #717171;
+    display: inline-block;
+    padding: 6px 32px;
+}
+.Scooty a{
+    font-size: 16px;
+}
+
+.Scooty.Scooty2{
+    margin-bottom: 12%
+}
+
+
+/*/////////////////Neeraj //////////////*/
+
+@media screen and (min-width: 768px){
+    section:not([id|=""]){
+        margin: 60px 0;
+
+    }
+
+}
+
+.card{
+    box-shadow: 0 0px 5px 0px rgba(88, 88, 88, 0.4);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.pkg-title{
+    margin-top: 10px;
+    color: #6bc862;
+    font-family: "railways" , sans-serif;
+    font-weight: 300;
+
+}
+
+.pkg-title > p{
+    color: #999;
+}
+
+.card-title{
+    background-color: #6bc862;
+    color: #f5f5f5;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+
+    box-shadow: 0 0px 5px 0px rgba(88, 88, 88, 0.4);
+}
+
+
+
+
+.select-date p {
+    color: #191919;
+    font-weight: 600;
+
+}
+
+
+.total-price .price-title{
+    color: #828282;
+    font-weight: 300;
+}
+
+
+
+/*.total-price p:last-child{*/
+    /*color: #565a5c;*/
+    /*font-weight: bolder;*/
+/*}*/
+
+
+
+
+/*Helpers Classes*/
+
+/*Margins*/
+
+.m-0{
+    margin: 0!important;
+}
+
+.m-5{
+    margin: 5px!important;
+}
+
+.m-10{
+    margin: 10px!important;
+}
+
+
+.m-20{
+    margin: 20px!important;
+}
+
+
+.m-30{
+    margin: 30px!important;
+}
+
+
+.m-40{
+    margin: 60px!important;
+}
+
+.m-60{
+    margin: 60px!important;
+}
+
+
+.m-t-5{
+    margin-top: 5px!important;
+}
+
+.m-t-10{
+    margin-top: 10px!important;
+}
+
+.m-t-20{
+    margin-top: 20px!important;
+}
+
+
+.m-t-40{
+    margin-top: 40px!important;
+}
+
+.m-t-60{
+    margin-top: 60px!important;
+}
+
+
+
+.m-b-5{
+    margin-bottom: 5px!important;
+}
+
+.m-b-10{
+    margin-bottom: 10px!important;
+}
+
+.m-b-20{
+    margin-bottom: 20px!important;
+}
+
+
+.m-b-40{
+    margin-bottom: 40px!important;
+}
+
+.m-b-60{
+    margin-bottom: 60px!important;
+}
+
+.b-b-1{
+	border-bottom: 1px solid #f2f2f2;
+}
+
+/*Fonts*/
+
+.f-14{
+    font-size: 14px!important;
+}
+
+
+.f-16{
+    font-size: 16px!important;
+}
+
+
+.f-18{
+    font-size: 18px!important;
+}
+
+
+.f-20{
+    font-size: 20px!important;
+}
+
+
+.f-22{
+    font-size: 22px!important;
+}
+
+
+.f-24{
+    font-size: 24px!important;
+}
+
+
+.w-600{
+    font-weight: 600!important;
+}
+
+
+.save{
+    margin: 0 auto;
+    display: block;
+    border-radius: 36px;
+    border: none;
+    width: 50%;
+    background: #6bc862;
+    border: 1px solid #6bc862;
+}
+.Sharing h6{
+    padding: 32px 0;
+    font-size: 18px;
+}
+
+.Sharing h4{font-size: 17px;}
+
+.Sharing input{
+        color: #6b6b6b;
+        font-size: 17px;
+        background: #f6f6f6;
+        border: 1px #e9e9e9 solid;
+        padding: 9px 12px 8px 25px;
+}
+
+.Sharing h5{
+    font-size: 16px;
+    padding: 3px 1px;
+    color: #6bc862;
+}
+
+
+.aad-rooms{}
+.button-add-rooms{
+	    margin: 0 auto;
+	    display: block;
+	    border-radius: 36px;
+	    font-size: 16px;
+	    border: 1px solid #3fb832;
+	    background: none;
+	    color: #4b4c4b;
+	    padding: 4px 18px;
+	    margin-bottom: 22px;
+	}
+
+
+.button-add-rooms.follow-button{
+	border: 1px #d22f2c solid;
+	font-size: 14px;
+}
+
+.button-add-rooms:hover{
+	background:#3fb832;
+}
+
+.button-add-rooms.follow-button:hover{
+	background:#d22f2c;
+}
+
+.btn-lg{
+	font-size: 18px;
+	width: 90%;
+}
+
+.save:hover{
+	background:#f6f6f6;
+	color: #3fb832;
+	border:1px  #3fb832 solid;
+}
+
+/*************** End **********************/
+
+
+
+
+/********************* Home-Pages ********************/
+
+
+
+.banner{
+    background: url(../images/banner.jpg) no-repeat center top;
+    background-size: cover;
+
+    height: 600px;
+   
+  }
+
+
+.banner h1{
+    text-align: center;
+    padding: 165px 0px 0px 0px;
+    font-size: 46px;
+    color: #fff;
+}
+.banner p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.inpt{
+  margin: 3% 22%;
+}
+
+.search-bar{}
+
+.banner input{}
+.banner button{
+    border: none;
+    background: #3fb832;
+    padding: 17px  42px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+}
+.input-group .form-control {
+    padding: 29px 14px;
+    border-radius: 4px;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    }
+
+
+
+.afterheavy{
+    margin: 10% 0;
+}
+
+.afterheavy h3{
+    font-size: 20px;
+    color: #1c1c1c;
+    margin: 6px 0;
+}
+.afterheavy p{
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+}
+.afterheavy img{
+    margin: 0px 25px;
+}
+
+.loocation2 h3{
+          background: url(../images/underline.png) center bottom no-repeat;
+      text-align: center;
+      font-size: 28px;
+      color: #565656;
+      font-weight: 500;
+      padding: 23px 0px;
+}
+
+.loocation2 {
+  margin: 3% 0%;
+}
+
+.loocation2 h3 span{
+    color: #3fb832;
+}
+
+
+.rishikesh2{
+  position: relative;
+      overflow: hidden;
+    
+          padding-left: 0px;
+    padding-right:0;
+
+
+}
+
+.rishikesh2:hover .opct{
+  transform: scale(1); 
+   transition: all ease 0.6s;
+   cursor: pointer;
+}
+
+.opct{
+    position: absolute;
+ 
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+       
+ 
+    transform: scale(0);
+    transition: all ease 0.6s;
+}
+
+.opct h4{
+    font-size: 29px;
+    color: #fff;
+    font-weight: 600;
+    padding: 34px 0 18px 0;
+}
+.opct p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    padding: 0px 55px;
+    line-height: 37px;
+}
+.read-more{
+    background: none;
+    border-radius: 32px;
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 15px;
+    border: 1px #fff solid;
+    margin: 11px 0;
+}
+
+.icons-section {
+    margin: 15% 0;
+}
+.loocation2 h3.why{
+      margin-top: 57%;
+}
+
+.why-Adventuria{
+      background: url(../images/321.jpg) no-repeat center top;
+      background-size: cover;
+      text-align: center;
+}
+
+.icons-section img{
+    margin: 0 auto;
+}
+.icons-section h6{
+    font-size: 16px;
+    color: #fff;
+    padding: 22px 0;
+    line-height: 22px;
+}
+
+.why-Adventuria p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 0;
+}
+
+
+.loocation2 h3.sports {
+      margin-bottom: 3%;
+}
+
+.bg-green{
+  background: #59c64d;
+  margin-bottom: 62px;
+}
+
+.afterheavy h5{
+    font-size: 22px;
+    color: #fff;
+    padding: 2px 27px;
+}
+.afterheavy a{
+    color: #fff;
+    font-size: 15px;
+    padding: 0 28px;
+}
+
+.afterheavy img.rafting{margin: -20px 8px;}
+
+
+.afterheavy.swimng{
+      border-right: 1px #fff solid;
+      padding: 42px 0px;
+}
+.afterheavy.swimng.border-none{
+   border-right: none;
+}
+
+.line{
+  background: #fff;
+  width: 93%;
+  margin: 0 30px;
+}
+
+.owl-carousel .item.Cleona-Torez{}
+
+.owl-carousel .item.Cleona-Torez h4{
+    font-size: 18px;
+    color: #656565;
+    padding: 10px 7px 0px 0px;
+    font-weight: 400;
+}
+
+
+.text p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #585858;
+}
+
+
+
+
+.owl-item{
+  width: 380px!important;
+}
+
+
+.bg-gray{
+  background: #f5f5f5;
+  margin-bottom: 42px;
+}
+
+
+.logo-adv{
+    margin: 46px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  margin: 58px 0;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: 0%;
+  background-image: none;
+  background: none repeat scroll 0 0 #3fb832;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 35px;
+  width: 35px;
+  margin-top: 35%;
+  line-height: 24px;
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: 89% !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #34bf25;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 35px;
+  width: 35px;
+  margin-top: 35%;
+  line-height: 24px;
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+
+.thumbnail {
+  text-align: center;
+}
+
+.thumbnail {
+    display: block;
+    margin-bottom: 28px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0;
+    background: white;
+    padding-bottom: 18px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.23), inset 0px 9px 0 0 hsla(0,0%,100%,.2);
+}
+
+
+.thumbnail h5{
+    color: #28be16;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0;
+    padding: 25px 0px 10px 0px;
+}
+
+.thumbnail p{
+    color: #8e8e8e;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.left-box{}
+
+.left-box img.printing{
+  margin: 74px 0;
+}
+/* End carousel */
