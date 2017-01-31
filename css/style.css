@@ -80,7 +80,7 @@
 .sercive_icon{float:left; list-style:none; width: 100%;}
 .sercive_icon li{float:left; width: 11%; text-align: center;
     border-right: 1px solid #ccc;}
-	
+
 .sercive_icon li:hover{ background:#090; color:#fff;}
 .sercive_icon li:last-child{border:none;}
 .sercive_icon li a{color:#7c807e}
@@ -90,71 +90,71 @@
 .sercive_icon li .coffee{background:url(../images/icons/Coffee.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .coffee:hover{background:url(../images/icons/Coffee2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .ac{background:url(../images/icons/AC.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .ac:hover{background:url(../images/icons/AC2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .climb{background:url(../images/icons/Climb.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .climb:hover{background:url(../images/icons/Climb2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .pool{background:url(../images/icons/Pool.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .pool:hover{background:url(../images/icons/Pool2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .gym{background:url(../images/icons/Gym.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .gym:hover{background:url(../images/icons/Gym2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .tv{background:url(../images/icons/TV.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .tv:hover{background:url(../images/icons/TV2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .light{background:url(../images/icons/Light.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .light:hover{background:url(../images/icons/Light2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .packing{background:url(../images/icons/Packing.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .packing:hover{background:url(../images/icons/Packing2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .security{background:url(../images/icons/Security.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
-	
+
 .sercive_icon li .security:hover{background:url(../images/icons/Security2.png); padding: 30px 0;
     background-size: 60px;
     background-position: 32px; width:100%; float:left; background-repeat:no-repeat;}
@@ -345,7 +345,7 @@
 
 .thumb{float:left;
 		width:100px; margin-right:13px;}
-		
+
 .thumb:last-child{margin-right:0;}
 
 
@@ -382,14 +382,23 @@
 .left-img{
 }
 .loginn{
-    border-radius: 57px;
-    padding: 12px 162px;
     background: #3fb832;
     border: none;
     color: #fff;
     font-size: 19px;
-    margin: 0px auto;
+    margin: 0 auto;
     display: block;
+    width: 200px;
+    height: 50px;
+    padding: 0;
+}
+
+.loginn:hover{
+    opacity: 0.7;
+}
+
+.width-100{
+    width: 100%!important;
 }
 
 
@@ -407,13 +416,13 @@
 .trip-to-goa{
     margin: 77px 0;
     float: left;
-    
+
     box-shadow: 0 0px 4px 0 rgba(0,0,0,.23), inset 1px 0px 0 0 hsla(0,0%,100%,.2);
     background: #ffffff;
     padding: 14px;
 }
 .trip-to-goa img{
-	
+
 }
 
 
@@ -433,12 +442,12 @@
  .trip-to-goa h3{
     color: #3fb832;
     font-size: 20px;
-} 
+}
   .trip-to-goa h5{
     font-size: 18px;
     color: #737373;
     padding: 8px 0px;
-} 
+}
 
 
 
@@ -448,7 +457,7 @@
  	    background: url(../images/rate.png) no-repeat 224px 17px;
  	    padding-left: 83%;
  	    padding-top: 4%;
- }  
+ }
 
 
  .loginn.total{
@@ -526,7 +535,7 @@
     margin: 26px 0;
 }
 .Services-section{
-	border-right:1px #d4d4d4 solid 
+	border-right:1px #d4d4d4 solid
 }
 
 
@@ -563,7 +572,7 @@
 
 .clander{
 	margin-top: 13px 0;
-} 
+}
 
 .company-logos li{
 
@@ -596,7 +605,7 @@ box-shadow: 0 0 1px 0px;
 
 /*.fix_box{
 position:fixed;
-right:40px; 
+right:40px;
 }*/
 
 .img3 img{
@@ -1343,7 +1352,7 @@ right:40px;
 }
 
 .rishikesh2 .opct{
-  transform: scale(1); 
+  transform: scale(1);
    transition: all ease 0.6s;
    cursor: pointer;
 }
@@ -1494,13 +1503,13 @@ right:40px;
 
 
 /* carousel */
-.media-carousel 
+.media-carousel
 {
   margin-bottom: 0;
   margin: 58px 0;
 }
 /* Previous button  */
-.media-carousel .carousel-control.left 
+.media-carousel .carousel-control.left
 {
   left: 0%;
   background-image: none;
@@ -1513,7 +1522,7 @@ right:40px;
   line-height: 24px;
 }
 /* Next button  */
-.media-carousel .carousel-control.right 
+.media-carousel .carousel-control.right
 {
   right: 89% !important;
   background-image: none;
@@ -1526,7 +1535,7 @@ right:40px;
   line-height: 24px;
 }
 /* Changes the position of the indicators */
-.media-carousel .carousel-indicators 
+.media-carousel .carousel-indicators
 {
   right: 50%;
   top: auto;
@@ -1534,11 +1543,11 @@ right:40px;
   margin-right: -19px;
 }
 /* Changes the colour of the indicators */
-.media-carousel .carousel-indicators li 
+.media-carousel .carousel-indicators li
 {
   background: #c0c0c0;
 }
-.media-carousel .carousel-indicators .active 
+.media-carousel .carousel-indicators .active
 {
   background: #333333;
 }
