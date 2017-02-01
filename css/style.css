@@ -1061,6 +1061,9 @@ right:40px;
 .p-0{
     padding: 0!important;
 }
+    .p-10{
+        padding: 10px!important;
+    }
 
 .p-t-0{
     padding-top: 0!important;
@@ -1836,4 +1839,40 @@ right:40px;
 .icon-addon .form-control:focus + .fa,
 .icon-addon:hover .fa {
     color: #2580db;
+}
+
+
+.failed{
+    color: #d22f2c;
+    border: 1px solid #d22f2c!important;
+    padding: 0 10px;
+    border-radius: 30px;
+    background: transparent;
+
+}
+
+.failed:hover{
+    color: #d22f2c;
+}
+
+.failed:focus{
+    outline: none;
+}
+
+
+.up-comming{
+    color: #FFC107;
+    border: 1px solid #FFC107!important;
+    padding: 0 10px;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.up-comming:hover{
+    color: #FFC107;
+}
+
+
+.up-comming:focus{
+    outline: none;
 }
