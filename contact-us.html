@@ -160,12 +160,20 @@
                             </div>
 
                         </div>
+                         <div class="col-md-12 card m-t-20">
+                      <div class="col-xs-12">
+                    	<h4>Reach Out To Us:-</h4>
+                    		<p><i class="fa fa-map-marker"></i>
+                            <span style="padding-left:10px;font-size: 20px">Address: 36,b North Block Rishikesh , India</span>
+                        </p>
+                    	</div>
 
-                        <div class="row m-t-40">
+                        <div class="row m-t-30">
                             <div class="col-md-6 text-center">
                                 <div class="card secondary-bg m-5">
-                                    <h3 class="m-0">Call Us</h3>
-                                    <p class="m-t-20">+91-XXX-XXX-XXX-X</p>
+                                    <h4 class="m-0">Call Us</h4>
+                                    <p class="m-t-20"><i class="fa fa-phone"></i>
+                            <span style="padding-left:10px;font-size: 20px">+91 9740168110</span></p>
                                 </div>
 
                             </div>
@@ -173,14 +181,38 @@
 
                             <div class="col-md-6 text-center">
                                 <div class="card secondary-bg m-5">
-                                    <h3 class="m-0">Mail Us</h3>
-                                    <p class="m-t-20">email@email.com</p>
+                                    <h4 class="m-0">Mail Us</h4>
+                                    <p class="m-t-20"><i class="fa fa-envelope"></i>
+                            <span style="padding-left:10px;font-size: 20px">info@adventuria.com</span></p>
                                 </div>
                             </div>
 
                         </div>
+                       </div>
 
                     </div>
+                   <!-- <div class="col-md-12 m-t-20 accordian">
+                    		<div class="panel-default panel">
+                    			<div class="panel-head">
+                    			 <a href="#!" class="head-acc">Faqs
+                    			 	<i class="fa fa-angle-down"></i>
+                    			 </a>
+                    			 </div>
+	                    		<div class="accordian-content">
+	                    			<p>hi1</p>
+	                    		</div>
+                    		</div>
+                    		<div class="panel">
+                    			 <div class="panel-head">
+                    			 <a href="#!" class="head-acc">Faqs
+                    			 <i class="fa fa-angle-down"></i>
+                    			 </a>
+                    			 </div>
+	                    		<div class="accordian-content">
+	                    			<p>hi2</p>
+	                    		</div>
+                    	</div>
+                    </div>-->
 
                 </div> <!--col-md-8 end here-->
 
@@ -194,7 +226,7 @@
                             <input  type="text" name="lname" placeholder="Phone Number" class="width-100 p-10">
                             <input  type="text" name="lname" placeholder="Email Id" class="width-100 p-10">
                             <textarea style="    border: 1px #cccccc solid;
-    font-size: 16px;" name="" id=""  rows="5" class="width-100 p-10" placeholder="Write Your Issue here"></textarea>
+    font-size: 16px;margin-bottom: 11px	" name="" id=""  rows="5" class="width-100 p-10" placeholder="Write Your Issue here"></textarea>
                             <button type="button" class="loginn width-100">Submit</button>
                         </div>
 
@@ -324,112 +356,26 @@
 <script src="js/bootstrap.min.js"></script>
 
 <script src="js/owl.carousel.min.js"></script>
-<script src="js/main.js"></script>
 
-<script src="js/classie.js"></script>
 <script src="js/gnmenu.js"></script>
-<script>
-    new gnMenu( document.getElementById( 'gn-menu' ) );
-</script>
 
-
-
-<script>
-    $(function() {
-        // Sequence.js Slider Plugin
-        var options = {
-                    nextButton: true,
-                    prevButton: true,
-                    pagination:true,
-                    autoPlay: true,
-                    autoPlayDelay: 8500,
-                    pauseOnHover: true,
-                    preloader: true,
-                    theme: 'slide',
-                    speed: 700,
-                    animateStartingFrameIn: true
-                },
-                homeSlider = $('#slider-sequence').sequence(options).data("sequence");
-
-    });
-    var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
-</script>
 
 <script type="text/javascript">
-    var current = 0,
-            $preview = $( '#preview' ),
-            $carouselEl = $( '#carousel' ),
-            $carouselItems = $carouselEl.children(),
-            carousel = $carouselEl.elastislide( {
-                current : current,
-                minItems : 4,
-                onClick : function( el, pos, evt ) {
-
-                    changeImage( el, pos );
-                    evt.preventDefault();
-
-                },
-                onReady : function() {
-
-                    changeImage( $carouselItems.eq( current ), current );
-
-                }
-            } );
-
-    function changeImage( el, pos ) {
-
-        $preview.attr( 'src', el.data( 'preview' ) );
-        $carouselItems.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel.setCurrent( pos );
-
-    }
-
-</script>
-
-<script>
-    $(function() {
-
-        var carouselContainer = $('#product-carousel'),
-                productImg =  $('#product-image');
-
-        carouselContainer.elastislide({
-            orientation : 'vertical',
-            minItems : 4
-
-        });
-
-        productImg.mlens({
-            imgSrc: $("#product-image").attr("data-big"),
-            lensShape: "square",
-            lensSize: 150,
-            borderSize: 4,
-            borderColor: "#999",
-            borderRadius: 0
-        });
-
-
-        var oldImg = productImg.attr('src');
-        carouselContainer.find('li').on('mouseover', function() {
-
-            var newImg = $(this).find('a').attr('href');
-
-            productImg.attr({'src': newImg, 'data-big': newImg}).trigger('imagechanged');
-
-        });
-
-        // triggered with custom event
-        productImg.on('imagechanged', function() {
-            productImg.mlens("update", 0 ,{
-                imgSrc: productImg.attr("data-big"),
-                lensShape: "square",
-                lensSize: 150,
-                borderSize: 4,
-                borderColor: "#999"
-            });
-        });
-
-    });
+$('.head-acc').click(function(){
+	if($(this).find('i.fa').hasClass('fa-angle-up')){
+		$(this).find('i.fa').removeClass('fa-angle-up').addClass('fa-angle-down')
+		$('.accordian-content').slideUp();
+		return;
+	}else{
+		$('.head-acc').find('i.fa').removeClass('fa-angle-up').addClass('fa-angle-down');
+		$('.accordian-content').slideUp();
+	}
+	$(this).find('i.fa').removeClass('fa-angle-down').addClass('fa-angle-up')
+	$(this).parents('div.panel').find('.accordian-content').slideDown();
+});
+ $(function(){
+ 	$('.accordian-content').slideUp();
+ });
 </script>
 
 </body>
