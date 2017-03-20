@@ -2597,3 +2597,14 @@ h6.text {
     padding: 10px 0px;
 }
 
+
+/*Landing Page*/
+
+.call-now {
+    padding: 9px 8px;
+    background: #21791e;
+}
+
+.call-now a{
+    margin: 0px !important;
+}
