@@ -2089,7 +2089,8 @@ a.btn.facebook-btn:hover > .fa-facebook:before{
     margin-top: 15.5px;
 }
 #main-nav-container.fixed #quick-access {
-    margin-top: 15px;
+    margin-top: 18px;
+    border-bottom: 1px solid #333;
 }
 input.input-form {
     width: 100%;
@@ -2097,7 +2098,7 @@ input.input-form {
     padding: 10px 10px;
     border-radius: 27px;
     font-size: 14px;
-    margin-bottom: 26px;
+    margin-bottom: 16px;
 }
 .property-location {
     background: #f9f9f9;
@@ -2128,10 +2129,10 @@ input.submit-form {
     border-radius: 30px;
 }
 .card.float-card.form {
-    background: #fff;
+    background: rgba(255,255,255,0.95);
 }
 .location-bg h1 {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 20px 0;
     color: #fff;
     font-weight: bolder;
@@ -2154,7 +2155,7 @@ ul.top-list li {
 }ul.top-list li:before {
     position: absolute;
     content: "\f111";
-    color: #881414;
+    color: #dfec6e;
     left: -18px;
     top: 8px;
     font-family: FontAwesome;
@@ -2608,3 +2609,9 @@ h6.text {
 .call-now a{
     margin: 0px !important;
 }
+
+.location-property img{
+  width: 100px;
+    margin-bottom: 15px;
+}
+
