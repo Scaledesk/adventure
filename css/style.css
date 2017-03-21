@@ -863,7 +863,7 @@ right:40px;
 }
 
 .card-content{
-    margin: 42px -20px -20px;
+    margin: 14px -20px 7px;
     padding: 15px;
     background-color: #fff;
 }
@@ -2614,4 +2614,86 @@ h6.text {
   width: 100px;
     margin-bottom: 15px;
 }
+.fix-calling-button-for-mobile{
+	position: fixed;
+    bottom: 0px;
+    display: none;
+    background: #fff;
+    padding: 12px;
+    z-index: 1011;
+    left: 0px;
+    text-align: center;
+    color: #fff;
+    right: 0px;
+    box-shadow: inset 0px 0px 0px -9px #b3b3b3;
+}
+.fix-calling-button-for-mobile a.calling-button {
+        color: #fff;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: -1px 2px 0 rgb(161, 230, 159), 1px 0px 0 rgb(1, 29, 0);
+    color: rgb(112, 112, 112);
+    -o-text-overflow: clip;
+    letter-spacing: 1px;
+}
 
+.fix-calling-button-for-mobile a.calling-button i.fa {
+    padding-right: 10px;
+    background: #054003;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 425px){
+	.property-location .location-property {
+    
+    width: 50%;
+    
+}
+.tab-content.p-t-40 {
+    padding: 27px 10px;
+}
+.card.float-card .form-title h3.title {
+    font-size: 20px;
+}
+.card.text-center.secondary-bg .img-circle {
+    width: 104px;
+    height: 104px;
+}
+.card.text-center.secondary-bg {
+    padding: 5px;
+}
+.fix-calling-button-for-mobile{
+	display: block;
+}
+.review .img {
+    float: left;
+    width: 30%;
+    }
+   h3{
+   	font-size: 17px;
+   }
+   
+.location-bg {
+    background-size: 250% 140%;
+    height: 450px;
+    }
+    .icon-container {
+    /* transform: rotate(45deg); */
+    width: 137px;
+    height: 178px;
+}
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+}
+@media only screen and (max-width: 330px) {
+	.fix-calling-button-for-mobile a.calling-button {
+    color: #fff;
+    font-size: 14px;
+}
+}
