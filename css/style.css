@@ -2686,10 +2686,6 @@ h6.text {
     width: 137px;
     height: 178px;
 }
-.row{
-	margin-left: 0px;
-	margin-right: 0px;
-}
 }
 @media only screen and (max-width: 330px) {
 	.fix-calling-button-for-mobile a.calling-button {
