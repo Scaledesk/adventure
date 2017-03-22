@@ -56,3 +56,6 @@ if($mail->send())
  {exit(header("Location:/index.html"));
  }else{exit(header("Location:/index.html"));
       }
+?>
+
+
