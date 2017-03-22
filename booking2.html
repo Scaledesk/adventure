@@ -95,7 +95,8 @@
                     </div><!-- End .logo-container -->
                     <div id="menu-right-side" class="clerfix">
                     <div id="quick-access">
-					<form class="form-inline" role="form" action="#" style="float:left; width: 100%; border: 1px solid #000; border-radius: 30px; padding: 2px 10px;">
+                    
+					<form class="form-inline" role="form"  style="float:left; width: 100%; border: 1px solid #000; border-radius: 30px; padding: 2px 10px;">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Search here">
 						</div><!-- End .form-inline -->
@@ -183,13 +184,15 @@
 
 
 <h4> Billing Details </h4>
-<input type="text" class="paynow"  placeholder="Name">
-<input type="text" class="paynow"  placeholder="Phone Number">
-<input type="text" class="paynow" placeholder="Phone Number">
+<form method="post" action="PHPMailer/MailFunction.php">
+<input type="text" class="paynow" required  name="name" placeholder="Name">
+<input type="text" class="paynow"  required name="phone"  placeholder="Phone Number">
+<input type="text" class="paynow" required name="phoneInd" placeholder="Phone Number">
 
 <a href="#"> Pay Now </a>
 
 <button type="button" class="btn btn-default loginn loginn2">1500 ,00/-</button>
+</form>
 </div>
 
 

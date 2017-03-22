@@ -179,7 +179,7 @@
 
             <div class="col-md-6 col-sm-6">
                 <div class="card float-card form">
-                    <form>
+                    <form action="PHPMailer/MailFunction.php" method="post">
                     <div class="row">
                     <div class="col-xs-12 form-title">
                         <h3 class="title">Get a Call Back - Easy Booking </h3>
@@ -187,22 +187,22 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                        <input class="input-form" type="text" placeholder="Name">
+                        <input class="input-form" type="text" name="name" placeholder="Name">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                        <input class="input-form" type="Email" placeholder="Email">
+                        <input class="input-form" type="email" name="email" placeholder="Email">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
-                        <input class="input-form" type="tel" placeholder="Contact Number">
+                        <input class="input-form" type="tel" name="phone" placeholder="Contact Number">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xs-12">
-                        <input class="input-form" type="number" placeholder="Number of Individuals">
+                        <div class="col-xs-12"> 
+                        <input class="input-form" type="number" name="phoneInd" placeholder="Number of Individuals">
                         </div>
                     </div>
                     <div class="row">
@@ -211,7 +211,7 @@
                         </div>
                         
                         <div class="col-md-6 col-xs-6 text-center">
-                            <a href="tel:09716013332" class="btn hollow-button" value="Call Now"> <i class="fa fa-phone"></i> &nbsp;Call Us</a>
+                           <a href="tel:09716013332" class="btn hollow-button" value="Call Now"> <i class="fa fa-phone"></i> &nbsp;Call Us</a>
                         </div>
                     </div>
                     
@@ -1166,16 +1166,17 @@ Try not getting involved with any local guide, whose offering you services.They 
                 <div class="col-md-4 col-sm-12 col-xs-12 widget">
                     <h3>Contact Us</h3>
 
-                    <form action="#" id="contact-form">
+                    
+                <form action="PHPMailer/MailFunction.php" id="contact-form" method="post">
 
                         <div class="input-group">
-                            <input type="text" name="contact-name" id="contact-name" required class="form-control input-lg" placeholder="Your Name">
+                            <input type="text" name="name" id="contact-name" required class="form-control input-lg" placeholder="Your Name">
                         </div><!-- End .input-group -->
                         <div class="input-group">
-                            <input type="email" name="contact-email" id="contact-email" required class="form-control input-lg" placeholder="Your Email">
+                            <input type="email" name="email" id="contact-email" required class="form-control input-lg" placeholder="Your Email">
                         </div><!-- End .input-group -->
                         <div class="input-group">
-                            <input type="text" name="contact-subject" id="contact-subject" required class="form-control input-lg" placeholder="Phone Number">
+                            <input type="text" name="phone" id="contact-subject" required class="form-control input-lg" placeholder="Phone Number">
                         </div><!-- End .input-group -->
 
                         <input type="submit" value="SEND" class="btn btn-custom-2 md-margin col-xs-12">

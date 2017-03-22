@@ -148,11 +148,11 @@
 
 
 <h4> Contact Person Details    </h4>
-<form>
-<input type="text" class="paynow" placeholder="Name">
-<input type="text" class="paynow" placeholder="Phone Number">
-<input type="text" class="paynow" placeholder="Email Id">
-
+<form method="post" action="PHPMailer/MailFunction.php">
+<input type="text" class="paynow"  required name="name" placeholder="Name">
+<input type="text" class="paynow" required  name="phone" placeholder="Phone Number">
+<input type="text" class="paynow" required name="email" placeholder="Email Id">
+<input type="submit" class="paynow" required name="email" value="SEND">
 </form>
 </div>
 </div>
