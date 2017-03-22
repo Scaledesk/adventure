@@ -615,22 +615,21 @@
 
                 <div class="col-md-4 col-sm-12 col-xs-12 widget">
                     <h3>Contact Us</h3>
-
-                    <form action="#" id="contact-form">
-
-                        <div class="input-group">
-                            <input type="text" name="contact-name" id="contact-name" required class="form-control input-lg" placeholder="Your Name">
-                        </div><!-- End .input-group -->
-                        <div class="input-group">
-                            <input type="email" name="contact-email" id="contact-email" required class="form-control input-lg" placeholder="Your Email">
-                        </div><!-- End .input-group -->
-                        <div class="input-group">
-                            <input type="text" name="contact-subject" id="contact-subject" required class="form-control input-lg" placeholder="Phone Number">
-                        </div><!-- End .input-group -->
-
-                        <input type="submit" value="SEND" class="btn btn-custom-2 md-margin col-xs-12">
-
-                    </form>
+                          <form action="PHPMailer/MailFunction.php" method="post"  id="contact-form">
+                                
+                                    <div class="input-group">
+                                        <input type="text" name="name" id="contact-name" required class="form-control input-lg" placeholder="Your Name">
+                                    </div><!-- End .input-group -->
+                                    <div class="input-group">
+                                        <input type="email" name="email" id="contact-email" required class="form-control input-lg" placeholder="Your Email">
+                                    </div><!-- End .input-group -->
+                                    <div class="input-group">
+                                        <input type="text" name="phone" id="contact-subject" required class="form-control input-lg" placeholder="Phone Number">
+                                    </div><!-- End .input-group -->
+                                    
+                                    <input type="submit" value="SEND" class="btn btn-custom-2 md-margin col-xs-12">
+                                
+                            </form>
 
 
                 </div><!-- End .widget-3 -->
