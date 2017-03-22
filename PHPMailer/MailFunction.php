@@ -53,6 +53,6 @@ $mail->Body    = $message;
 
    
 if($mail->send())
- {header("Location:/index.html");
- }else{header("Location:/index.html");
+ {exit(header("Location:/index.html"));
+ }else{exit(header("Location:/index.html"));
       }
