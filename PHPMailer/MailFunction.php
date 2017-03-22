@@ -53,15 +53,6 @@ $mail->Body    = $message;
 
    
 if($mail->send())
- {
-
-
-     header("Location:/index.html");
- 	 	
-} else {
-   
-   header("Location:/index.html");
-      // echo "";
-     // header("location: ../contact.php?msg='<p class='error'>Some error occurred!</p>'");
-
+ {header("Location:/index.html");
+ }else{header("Location:/index.html");
       }
