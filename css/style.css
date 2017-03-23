@@ -1756,13 +1756,13 @@ right:40px;
 
 .icon{
    /* transform: rotate(-45deg);*/
-    margin-top: 25px;
+    margin-top: 12px;
 }
 
 
 .icon-container img{
     width: 63px;
-    height: 50px;
+/*    height: 50px;*/
 }
 
 
