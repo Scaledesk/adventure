@@ -374,6 +374,7 @@
 .review-txt{
     height: 89px;
     overflow-y: scroll;
+    text-align: justify;
 }
 
 
@@ -1759,6 +1760,7 @@ right:40px;
 
 
 
+
 .icon{
    /* transform: rotate(-45deg);*/
     margin-top: 12px;
@@ -2621,6 +2623,16 @@ h6.text {
 
 /*Landing Page*/
 
+.content p{
+    text-align: justify;
+}
+
+.tab-content p{
+        text-align: justify;
+    padding-right: 30px;
+        
+    }
+
 .call-now {
     padding: 9px 8px;
     background: #21791e;
@@ -2696,6 +2708,9 @@ h6.text {
    h3{
    	font-size: 17px;
    }
+    
+    
+    
    
 .location-bg {
     background-size: 250% 140%;
