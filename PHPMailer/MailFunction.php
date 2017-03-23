@@ -11,8 +11,14 @@ $phoneInd=$_POST['phoneInd'];
 // name email phone phoneInd
  // fname sname email phone message
 
-  // $emailadmin="care@futureconsumer.in";
-$emailadmin="nkscoder@gmail.com";
+ 		
+$emailadmin="sanchit2411@gmail.com";
+
+$emailadmin1="adventuria.social@gmail.com";
+
+$emailadmin2="nittin@adventuria.in";
+$emailadmin3="pankaaj@adventuria.in";
+
   
 $subject = "Contact Us - Adventuria";
 
@@ -28,20 +34,23 @@ $message ='<html>
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'nkscoder@gmail.com';                 // SMTP username
-$mail->Password = 'n7827495599';                       // SMTP password
+$mail->Username = 'adventuria.social@gmail.com';                 // SMTP username
+$mail->Password = 'n9211411038';                       // SMTP password
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;// TCP port to connect to
 $mail->IsHTML(true);
-$mail->setFrom('nkscoder@gmail.com', 'Adventuria');
+$mail->setFrom('adventuria.social@gmail.com', 'Adventuria');
 //$mail->addAddress('ellen@example.com');               // Name is optional
-$mail->addReplyTo('nkscoder@gmail.com', 'noreply');
+$mail->addReplyTo('adventuria.social@gmail.com', 'noreply');
 
 
 // $mail->addAddress($email, $name);     // Add a recipient
 
 
-$mail->addAddress($emailadmin);     // Add a recipient
+$mail->addAddress($emailadmin); 
+$mail->addAddress($emailadmin1); 
+$mail->addAddress($emailadmin2);     // Add a recipient
+$mail->addAddress($emailadmin3); 
 
 $mail->Subject = $subject;
 $mail->Body    = $message;
