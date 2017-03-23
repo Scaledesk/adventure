@@ -46,13 +46,12 @@ $mail->addAddress($emailadmin);     // Add a recipient
 $mail->Subject = $subject;
 $mail->Body    = $message;
 
- $mail->SMTPDebug = 1; 
+ //$mail->SMTPDebug = 1; 
 
 
 
 
    
-if($mail->send())
- {exit(header("Location:/index.html"));
- }else{exit(header("Location:/index.html"));
-      }
+if($mail->send()){exit(header("Location:/index.html"));}else{exit(header("Location:/index.html"));}?>
+
+
