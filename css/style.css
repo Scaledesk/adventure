@@ -1650,6 +1650,7 @@ right:40px;
 @media screen and (max-width: 769px)  {
     .location-bg{
         background: url('../images/Location-pages.png') center no-repeat;
+/*        background: url("../images/banner-mobile.jpg");*/
         background-size: cover;
         width: 100%;
         height: 600px;
@@ -2657,7 +2658,8 @@ h6.text {
     text-align: center;
     color: #fff;
     right: 0px;
-    box-shadow: inset 0px 0px 0px -9px #b3b3b3;
+    padding-bottom: 15px;
+    box-shadow: inset 0px 0px 0px -3px #b3b3b3;
 }
 .fix-calling-button-for-mobile a.calling-button {
         color: #fff;
