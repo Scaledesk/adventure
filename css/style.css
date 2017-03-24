@@ -1722,7 +1722,7 @@ right:40px;
 #location p:first-child{
     color: #484848;
     word-spacing: 5px;
-    text-align: justify;
+/*    text-align: justify;*/
 }
 
 @media screen and (min-width: 769px) {
@@ -1750,7 +1750,7 @@ right:40px;
      color:#fff!important;
     cursor: pointer;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.23), inset 1px 1px 0 0 hsla(0,0%,100%,.2);
-    background: #00c548;;
+    background: #00c548;
     transition: all .5s ease-in-out;
 }
 
