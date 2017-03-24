@@ -2706,7 +2706,7 @@ h6.text {
     width: 30%;
     }
    h3{
-   	font-size: 17px;
+   	font-size: 16px;
    }
     
     
@@ -2719,7 +2719,7 @@ h6.text {
     .icon-container {
     /* transform: rotate(45deg); */
     width: 137px;
-    height: 178px;
+    height: 137px;
 }
 }
 @media only screen and (max-width: 330px) {
