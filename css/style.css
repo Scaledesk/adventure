@@ -33,7 +33,10 @@
 	width: 30px;
     height: 30px;
 }
-
+.review .text li {
+    font-size: 14px;
+    letter-spacing: .9px;
+}
 .river_rafting li{line-height: 60px;
     padding: 8px 10px;
     border-radius: 30px;
