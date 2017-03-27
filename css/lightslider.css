@@ -149,6 +149,7 @@
 /* End of Gallery*/
 ul#light-slider li img {
     width: 100%;
+        min-height: 60vh;
 }
 /* slider actions */
 .lSAction > a {
