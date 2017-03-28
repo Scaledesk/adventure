@@ -136,8 +136,12 @@
 }
 .lSSlideOuter .lSPager.lSGallery img {
     display: block;
+    max-width: 100%;
+    height: auto;
+/*
     height: 55px;
     width: 123px !important;
+*/
 }
 .lSSlideOuter .lSPager.lSGallery:before, .lSSlideOuter .lSPager.lSGallery:after {
     content: " ";
@@ -149,7 +153,7 @@
 /* End of Gallery*/
 ul#light-slider li img {
     width: 100%;
-        min-height: 60vh;
+/*        min-height: 60vh;*/
 }
 /* slider actions */
 .lSAction > a {

@@ -53,13 +53,15 @@
         <!--- jQuery -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<!--
         <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
 		
+-->
         <script src="js/modernizr.custom.17475.js"></script>
         
         <style>
             @media only screen and (max-width: 767px){
-            .gallery{margin-top: 140px !important; }
+            .gallery-top-fix{margin-top: 140px !important; }
                 }
         </style>
 
@@ -153,22 +155,45 @@
 
         	
 
-        	<div class="container item-detail-page">
+        	<div class="first-scroll container-fluid item-detail-page">
         		<div class="row">
-        			<div class="col-md-12">
+        			<div class="col-md-12 gallery-top-fix">
         				<div class="row">
                         	<div class="col-md-6 col-sm-12 col-xs-12 large-detail animate fadeInLeft">
-                                <div class="gallery">
+                                <div class="demo">
+<!--
                                     <div class="image-preview">
                                         <img id="preview" src="images/p1/1.jpg" style="width: 100%;"/>
                                     </div>
+-->
 
                                     <!-- Elastislide Carousel -->
-                                    <ul id="carousel" class="elastislide-list">
-                                        <li data-preview="images/p1/1.jpg"><a href="#"><img src="images/p1/1.jpg" alt="image04" /></a></li>
-                                        <li data-preview="images/p1/2.jpg"><a href="#"><img src="images/p1/2.jpg" alt="image05" /></a></li>
-                                        <li data-preview="images/p1/3.jpg"><a href="#"><img src="images/p1/3.jpg" alt="image06" /></a></li>
-                                        <li data-preview="images/p1/4.jpg"><a href="#"><img src="images/p1/4.jpg" alt="image07" /></a></li>
+                                   <ul id="light-slider">
+    
+                                            <li data-thumb="images/p1/new1.jpg">
+                                                <img src="images/p1/new1.jpg" />
+                                            </li>
+                                             <li data-thumb="images/p1/new2.jpg">
+                                                <img src="images/p1/new2.jpg" />
+                                            </li>
+                                             <li data-thumb="images/p1/new3.jpg">
+                                                <img src="images/p1/new3.jpg" />
+                                            </li>
+                                             <li data-thumb="images/p1/new4.jpg">
+                                                <img src="images/p1/new4.jpg" />
+                                            </li>
+                                            <li data-thumb="images/p1/new5.jpg">
+                                                <img src="images/p1/new5.jpg" />
+                                            </li>
+                                       
+                                       <li data-thumb="images/p1/6.jpg">
+                                                <img src="images/p1/6.jpg" />
+                                            </li>
+                                       
+                                       <li data-thumb="images/p1/3.jpg">
+                                                <img src="images/p1/3.jpg" />
+                                            </li>
+                                            
 
                                     </ul>
                                     <!-- End Elastislide Carousel -->
@@ -390,7 +415,7 @@
                                      <ul>
 <!--	<li><b>From : </b>Shivpuri to Laxman Jhula</li><br>-->
 	<li><b>Number of Rapids:</b> 9 Rapids</li><br>
-	<li><b>Activities: </b>No Cliff Jumping</li><br>
+	<li><b>Activities: </b>Cliff Jumping</li><br>
 	<li><b>Timing :</b> 3 - 4 Hours</li>
 </ul>
                                     
@@ -639,7 +664,7 @@
         <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="package item">
                 <div class="h-img">
-                    <img src="images/p3/p3.jpg" class="img-responsive">
+                    <img src="images/p3/5.jpg" class="img-responsive">
                 </div>
                 <div class="discount-div">
                     <p>Discount 50%</p>
@@ -673,7 +698,7 @@
         <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="package item">
                 <div class="h-img">
-                    <img src="images/p3/2.jpeg" class="img-responsive">
+                    <img src="images/p4/1.jpg" class="img-responsive">
                 </div>
                 <div class="discount-div">
                     <p>Discount 50%</p>
@@ -1182,7 +1207,7 @@
     </div><!-- End #wrapper -->
     <!-- END -->
 	<!-- END -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+   
     <script type="text/javascript" src="js/jquerypp.custom.js"></script>
 	<script type="text/javascript" src="js/jquery.elastislide.js"></script>
     
@@ -1191,6 +1216,23 @@
     
 	<script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+<link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+<script src="js/lightslider.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#light-slider").lightSlider({
+            gallery: true,
+            item: 1,
+            loop: true,
+            slideMargin: 10,
+            thumbItem:9,
+        });
+    });
+</script>
+
 	
     <script src="js/classie.js"></script>
 	<script src="js/gnmenu.js"></script>
@@ -1267,104 +1309,13 @@
 <!--   Form Modal End-->
     
     <script>
-    	$(function() {
-    		// Sequence.js Slider Plugin
-			var options = {
-				nextButton: true,
-				prevButton: true,
-				pagination:true,
-				autoPlay: true,
-				autoPlayDelay: 8500,
-				pauseOnHover: true,
-				preloader: true,
-				theme: 'slide',
-				speed: 700,
-				animateStartingFrameIn: true
-                },
-				homeSlider = $('#slider-sequence').sequence(options).data("sequence");
     	
-    	});
+    		// Sequence.js Slider Plugin
+			
 		var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
     </script>
 	
-    <script type="text/javascript">
-			var current = 0,
-				$preview = $( '#preview' ),
-				$carouselEl = $( '#carousel' ),
-				$carouselItems = $carouselEl.children(),
-				carousel = $carouselEl.elastislide( {
-					current : current,
-					minItems : 4,
-					onClick : function( el, pos, evt ) {
-
-						changeImage( el, pos );
-						evt.preventDefault();
-
-					},
-					onReady : function() {
-
-						changeImage( $carouselItems.eq( current ), current );
-						
-					}
-				} );
-
-			function changeImage( el, pos ) {
-
-				$preview.attr( 'src', el.data( 'preview' ) );
-				$carouselItems.removeClass( 'current-img' );
-				el.addClass( 'current-img' );
-				carousel.setCurrent( pos );
-
-			}
-
-		</script>
-        
-        <script>
-		$(function() {
-
-			var carouselContainer = $('#product-carousel'),
-                productImg =  $('#product-image');
-
-			carouselContainer.elastislide({
-				orientation : 'vertical',
-				minItems : 4
-					
-			});
-
-            productImg.mlens({
-                imgSrc: $("#product-image").attr("data-big"),         
-                lensShape: "square",
-                lensSize: 150,
-                borderSize: 4,
-                borderColor: "#999",
-                borderRadius: 0
-            });
-			
-			
-			var oldImg = productImg.attr('src');
-			carouselContainer.find('li').on('mouseover', function() {
-				
-				var newImg = $(this).find('a').attr('href');
-				
-                productImg.attr({'src': newImg, 'data-big': newImg}).trigger('imagechanged');
-                
-			});
-
-            // triggered with custom event
-            productImg.on('imagechanged', function() {
-                productImg.mlens("update", 0 ,{
-                    imgSrc: productImg.attr("data-big"),
-                    lensShape: "square",
-                    lensSize: 150,
-                    borderSize: 4,
-                    borderColor: "#999"
-                });
-            });
-
-		});
-	</script>
-   
-   
+    
 
 
     </body>
